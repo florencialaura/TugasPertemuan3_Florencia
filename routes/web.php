@@ -15,7 +15,7 @@ use App\Http\Controllers\matakuliahController;
 
 
 Route::get('/', function () {
-    return view('welcome',['nama mata kuliah'=>'Supply Chain Management','sks'=>'3 sks ']);
+    return view('welcome');
 });
 
 Route::get('/Mata Kuliah', [matakuliahController::class, 'index']);
