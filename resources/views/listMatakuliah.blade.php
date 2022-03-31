@@ -47,7 +47,7 @@
             <tr>
                 <th style="width: 180px;">Nomor Mata Kuliah</th>
                 <th style="width: 320px;">Nama Mata Kuliah</th>
-                <th style="width: 100px;">Jumlah SKS</th>
+                <th style="width: 110px;">Jumlah SKS</th>
             </tr>
            
             @foreach ($matakuliah as $detailMatakuliah)
